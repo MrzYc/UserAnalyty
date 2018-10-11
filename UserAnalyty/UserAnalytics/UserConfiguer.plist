@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ViewController</key>
+	<dict>
+		<key>switchAction:</key>
+		<string>switchKey</string>
+		<key>pressThr:</key>
+		<string>key3</string>
+		<key>pressOne:</key>
+		<string>Param_Designer_Detail</string>
+		<key>pressTwo:</key>
+		<string>Param_Designer_List</string>
+		<key>controllerEnter</key>
+		<string>ViewControllerEnter</string>
+		<key>controllerLeave</key>
+		<string>ViewControllerLeave</string>
+		<key>tableView:didSelectRowAtIndexPath:</key>
+		<string>tableView</string>
+	</dict>
+	<key>NextViewController</key>
+	<dict>
+		<key>controllerEnter</key>
+		<string>NextViewEnter</string>
+		<key>controllerLeave</key>
+		<string>NextViewLeave</string>
+	</dict>
+</dict>
+</plist>
