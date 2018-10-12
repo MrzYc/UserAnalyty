@@ -26,11 +26,11 @@
     
     [UMCommonLogManager setUpUMCommonLogManager];
     [UMConfigure setLogEnabled:YES];//设置打开日志
-    [UMConfigure initWithAppkey:@"5b2c7f3ef29d987f0e000027" channel:nil];
+    NSString *appkey = @"5b2c7f3e*******0e000027";
+    [UMConfigure initWithAppkey:appkey channel:nil];
     [MobClick setScenarioType:E_UM_NORMAL|E_UM_DPLUS];
     
     [MobClick setCrashReportEnabled:YES];
-    
     
     //此函数在UMCommon.framework版本1.4.2及以上版本，在UMConfigure.h的头文件中加入。
     //如果用户用组件化SDK,需要升级最新的UMCommon.framework版本。
